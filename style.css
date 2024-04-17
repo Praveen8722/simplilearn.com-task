@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+.header {
+  width: 100%;
+  padding: 16px 12%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 35px;
+}
+.list {
+  display: flex;
+  position: fixed;
+  top: 10px;
+  left: 30%;
+  width: 70%;
+  padding: 18px 12%;
+  justify-content: space-between;
+  align-items: center;
+}
+.list li a {
+  color: black;
+}
+.list li a:hover {
+  color: #1179ef;
+  transition: 0.3s ease;
+}
+.list2 {
+  display: flex;
+  padding: 35px;
+  background-color: rgb(2, 3, 129);
+  padding: 16px 13%;
+}
+.list2 li a {
+  color: white;
+  font-size: 16px;
+  padding: 10px 25px;
+}
+.list2 a.active {
+  color: #f5ab40;
+  border-bottom: 3px solid #f5ab40;
+}
+.home {
+  position: relative;
+}
+
+.about-us {
+  position: absolute;
+  top: 50%;
+}
+
+.home img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us h1 {
+  color: #262626;
+  background: #ffa736;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 5px 40px 5px 180px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.para {
+  padding: 20px 17%;
+}
+.para h2 {
+  color: #262626;
+  line-height: 38px;
+  display: block;
+  font-size: 1.33em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 700;
+  unicode-bidi: isolate;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  cursor: pointer;
+  z-index: 2;
+  overflow: hidden;
+}
+.para p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  color: #7e7e7e;
+  font-size: 16px;
+  margin: 16px 0px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.elementor-populated {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  box-sizing: border-box;
+  unicode-bidi: isolate;
+  padding: 0px 80px 0px 140px;
+}
+.elementor-populated .icon-box1 {
+  background: #fde5d0;
+  border-color: #f2bb84;
+  padding: 30px;
+  display: block;
+  width: calc(25% - 24px) !important;
+  margin: 12px;
+  max-width: 100%;
+  border: 1px solid;
+  margin: 12px !important;
+  border-radius: 6px;
+}
+.elementor-populated .icon-box2 {
+  background: #e9eaff;
+  border-color: #bcb7f0;
+  padding: 30px;
+  display: block;
+  width: calc(25% - 24px) !important;
+  margin: 12px;
+  max-width: 100%;
+  border: 1px solid;
+  margin: 12px !important;
+  border-radius: 6px;
+}
+.elementor-populated .icon-box3 {
+  background: #d9faf2;
+  border-color: #aad9b4;
+  padding: 30px;
+  display: block;
+  width: calc(25% - 24px) !important;
+  margin: 12px;
+  max-width: 100%;
+  border: 1px solid;
+  margin: 12px !important;
+  border-radius: 6px;
+}
+.elementor-populated .icon-box4 {
+  background: #dbeeff;
+  border-color: #76c3ef;
+  padding: 30px;
+  display: block;
+  width: calc(25% - 24px) !important;
+  margin: 12px;
+  max-width: 100%;
+  border: 1px solid;
+  margin: 12px !important;
+  border-radius: 6px;
+}
+.elementor-populated .icon-box5 {
+  background: #fef4d4;
+  border-color: #eed197;
+  padding: 30px;
+  display: block;
+  width: calc(25% - 24px) !important;
+  margin: 12px;
+  max-width: 100%;
+  border: 1px solid;
+  margin: 12px !important;
+  border-radius: 6px;
+}
+
+.elementor-populated h4 {
+  color: #474747;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46px;
+  text-align: center;
+}
+.elementor-populated p {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  unicode-bidi: isolate;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+}
